@@ -10,4 +10,5 @@
 Задача заключается в том, чтобы максимально справедливо распределять владение
 объектами между субъектами.</p>
 <h2>Предлагаемый алгоритм</h2>
-![Algorithm diagram](https://github.com/CheapJamba/Ownership_Distribution/blob/CheapJamba-readme/images/algorithm_diagram.png?raw=true)
+
+![Algorithm diagram](images/algorithm_diagram.png)
