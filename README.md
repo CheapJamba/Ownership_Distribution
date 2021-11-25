@@ -10,4 +10,4 @@
 Задача заключается в том, чтобы максимально справедливо распределять владение
 объектами между субъектами.</p>
 <h2>Предлагаемый алгоритм</h2>
-![Placeholder](https://lastfm.freetls.fastly.net/i/u/770x0/3b27c09552b4005dff686d9d04d6eac3.jpg)
+![Algorithm diagram](./images/algorithm_diagram.png)
