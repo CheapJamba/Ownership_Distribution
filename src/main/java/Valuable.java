@@ -31,7 +31,7 @@ public class Valuable{
     public boolean removeContestant(Owner toRemove) {
         boolean result = contestants.remove(toRemove);
         if (result) {
-            for (ValuableListener listener : listeners.getList()) {
+            for (ValuableListener listener : listeners.getInnerList()) {
                 listener.onContestantRemoved(this);
             }
         }
@@ -80,7 +80,7 @@ public class Valuable{
             newOwner.onOwnerChanged(this);
         }
         listeners.lock();
-        for (ValuableListener listener : listeners.getList()) {
+        for (ValuableListener listener : listeners.getInnerList()) {
             listener.onOwnerChanged(this);
         }
         listeners.unlock();
